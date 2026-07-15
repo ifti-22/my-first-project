@@ -310,3 +310,107 @@
     font-weight: bold;
     margin-top: 20px;
 }
+.event-info{
+    width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    gap: 40px;
+}
+
+.schedule,
+.faq{
+    flex: 1;
+}
+
+.schedule h2,
+.faq h2{
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.schedule-card,
+.faq-card{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.schedule-card h3{
+    color: #2563eb;
+    margin-bottom: 20px;
+}
+
+.session{
+    display: flex;
+    gap: 20px;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.session:last-child{
+    border-bottom: none;
+}
+
+.session span{
+    width: 90px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.faq-card h3{
+    margin-bottom: 12px;
+    color: #111827;
+}
+
+.faq-card p{
+    color: #555;
+    line-height: 1.6;
+}
+.footer{
+    margin-top: 30px;
+    background: #111827;
+    padding: 40px 0 20px;
+}
+.footer-container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.footer-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-icon{
+    display: flex;
+    gap: 15px;
+}
+.footer-icon a{
+    width: 45px;
+    height: 45px;
+    background: #1f2937;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.footer-icon img{
+    height: 25px;
+    width: 25px;
+    object-fit: contain;
+}
+.footer hr{
+    border: none;
+    border-top: 1px solid #374151;
+    margin: 30px 0 20px;
+}
+.footer-down{
+    text-align: center;
+}
+.footer-down p{
+    color: #9ca3af;
+    font-size: 15px;
+}
