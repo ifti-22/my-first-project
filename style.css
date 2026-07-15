@@ -27,23 +27,13 @@
     cursor: pointer;
 }
 
-.navbar-link {
+.navbar-links {
     display: flex;
     list-style: none;
     font-size: 17px;
     gap: 35px;
     cursor: pointer;
 }
-
-.navbar-link a:hover {
-    color: blue;
-}
-
-.navbar-link a {
-    text-decoration: none;
-    color: grey;
-}
-
 .reg-button {
     background: rgb(3, 124, 245);
     color: #fff;
@@ -54,8 +44,4 @@
     cursor: pointer;
     transition: .3s;
     text-decoration: none;
-}
-
-.reg-button:hover {
-    background-color: aqua;
 }
