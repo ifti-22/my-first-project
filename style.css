@@ -259,20 +259,54 @@
 }
 
 .sec-price-card {
-    background: #111827;
-    color: #fff;
-    transform: scale(1.05) translateY(-8px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
+    background: #0f1d2d;
+    color: white;
+    padding: 40px;
+    border-radius: 15px;
 }
 
-.sec-price-card .info,
-.sec-price-card small,
+.sec-price-card span {
+    color: #4a8dff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.sec-price-card h3 {
+    font-size: 56px;
+    margin: 10px 0 0;
+    font-weight: 700;
+}
+
+.sec-price-card small {
+    display: block;
+    color: #9ca3af;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.sec-price-card ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 25px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 25px;
+}
+
 .sec-price-card ul li {
+    margin-bottom: 18px;
     color: #d1d5db;
+    font-size: 15px;
 }
 
 .sec-price-card a {
-    background: #2563eb;
-    color: #fff;
-    border-color: #2563eb;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: #3567f4;
+    color: white;
+    padding: 14px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 20px;
 }
