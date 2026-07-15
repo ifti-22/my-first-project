@@ -45,3 +45,58 @@
     transition: .3s;
     text-decoration: none;
 }
+.body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .55);
+}
+.body-items{
+    margin-top: -30px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1200px;
+    color: #fff;
+}
+.body-items h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.body-items p{
+    width: 650px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #e5e7eb;
+    margin-bottom: 150px;
+}
+.sec-reg-button{
+    background: rgb(3, 124, 245) ;
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    border-radius:  10px;
+    font-size: 25px;
+    font-weight: 750;
+    cursor: pointer;
+    transition: .3s;
+    text-decoration: none;
+}
