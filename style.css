@@ -100,3 +100,41 @@
     transition: .3s;
     text-decoration: none;
 }
+.speakers{
+    padding: 100px 0;
+    background: #ffffff;
+}
+.speaker-container{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+.speaker-heading{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.speaker-heading h3{
+    font-size: 42px;
+    color: #111827;
+    margin-bottom: 15px;
+} 
+.speaker-heading p{
+    width: 650px;
+    margin: auto;
+    color: #9aa0ab;
+    line-height: 1.8;
+}
+.speakers-container{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.speaker-box{
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
