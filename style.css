@@ -34,6 +34,7 @@
     gap: 35px;
     cursor: pointer;
 }
+
 .reg-button {
     background: rgb(3, 124, 245);
     color: #fff;
@@ -45,7 +46,8 @@
     transition: .3s;
     text-decoration: none;
 }
-.body{
+
+.body {
     width: 100%;
     height: 100vh;
     background-image: url("./assets/banner.jpg");
@@ -58,7 +60,8 @@
     text-align: center;
     align-items: center;
 }
-.overlay{
+
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -66,7 +69,8 @@
     height: 100%;
     background: rgba(0, 0, 0, .55);
 }
-.body-items{
+
+.body-items {
     margin-top: -30px;
     position: relative;
     z-index: 1;
@@ -74,13 +78,15 @@
     max-width: 1200px;
     color: #fff;
 }
-.body-items h1{
+
+.body-items h1 {
     font-size: 72px;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 20px;
 }
-.body-items p{
+
+.body-items p {
     width: 650px;
     margin: auto;
     font-size: 18px;
@@ -88,43 +94,50 @@
     color: #e5e7eb;
     margin-bottom: 150px;
 }
-.sec-reg-button{
-    background: rgb(3, 124, 245) ;
+
+.sec-reg-button {
+    background: rgb(3, 124, 245);
     color: #fff;
     padding: 20px 40px;
     border: none;
-    border-radius:  10px;
+    border-radius: 10px;
     font-size: 25px;
     font-weight: 750;
     cursor: pointer;
     transition: .3s;
     text-decoration: none;
 }
-.speakers{
+
+.speakers {
     padding: 100px 0;
     background: #ffffff;
 }
-.speaker-container{
+
+.speaker-container {
     width: 80%;
     max-width: 1200px;
     margin: auto;
 }
-.speaker-heading{
+
+.speaker-heading {
     text-align: center;
     margin-bottom: 60px;
 }
-.speaker-heading h3{
+
+.speaker-heading h3 {
     font-size: 42px;
     color: #111827;
     margin-bottom: 15px;
-} 
-.speaker-heading p{
+}
+
+.speaker-heading p {
     width: 650px;
     margin: auto;
     color: #9aa0ab;
     line-height: 1.8;
 }
-.speakers-container{
+
+.speakers-container {
     width: 80%;
     max-width: 1200px;
     margin: auto;
@@ -132,33 +145,134 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-.speaker-box{
+
+.speaker-box {
     background: #fff;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
 }
-.speaker-box img{
+
+.speaker-box img {
     width: 100%;
     height: 320px;
     object-fit: cover;
 }
-.designation{
+
+.designation {
     padding: 25px;
     text-align: left;
     color: rgb(68, 68, 234);
 }
-.designation h4{
+
+.designation h4 {
     font-size: 14px;
     margin-bottom: 4px;
 }
-.designation{
+
+.designation {
     font-size: 24px;
     color: black;
     font-weight: 600;
     margin-bottom: 8px;
 }
-.designation{
+
+.designation {
     margin-top: 4px;
     color: gray;
+}
+
+.ticket {
+    padding: 100px 0;
+    background: #fff;
+}
+
+.ticket-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.ticket-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.ticket-heading h2 {
+    font-size: 48px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.ticket-heading p {
+    color: #6b7280;
+    font-size: 16px;
+}
+
+.ticket-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.first-price-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.info {
+    font-size: 13px;
+    font-weight: 600;
+    color: #6b7280;
+}
+
+.first-price-card h3 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.first-price-card small {
+    color: #6b7280;
+}
+
+.first-price-card ul {
+    margin: 30px 0;
+    padding-left: 20px;
+}
+
+.first-price-card ul li {
+    margin-bottom: 15px;
+    color: #374151;
+}
+
+.first-price-card a {
+    display: block;
+    text-align: center;
+    padding: 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 2px solid #2563eb;
+    color: #2563eb;
+    font-weight: 600;
+}
+
+.sec-price-card {
+    background: #111827;
+    color: #fff;
+    transform: scale(1.05) translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
+}
+
+.sec-price-card .info,
+.sec-price-card small,
+.sec-price-card ul li {
+    color: #d1d5db;
+}
+
+.sec-price-card a {
+    background: #2563eb;
+    color: #fff;
+    border-color: #2563eb;
 }
